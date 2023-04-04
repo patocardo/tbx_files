@@ -1,0 +1,27 @@
+# Directories
+node_modules/
+build/
+coverage/
+dist/
+
+# Files
+.env
+.DS_Store
+npm-debug.log*
+
+# Jest
+coverage/
+
+# Mocha
+test/*.log
+
+# ExpressJS
+public/uploads/
+.env.local
+
+# React
+yarn-error.log
+yarn.lock
+
+# Axios
+examples/
