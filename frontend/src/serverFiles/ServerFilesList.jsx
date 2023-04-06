@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { fetchServerFiles } from './serverFiles.actions';
-import { Container, Table, Alert, Spinner } from 'react-bootstrap';
+import { Container, Table, Alert } from 'react-bootstrap';
 import findBestLine from './helpers/findBestLine';
 import LoadingSpinner from '../shared/LoadingSpinner';
 
