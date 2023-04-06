@@ -1,12 +1,13 @@
 exports.mapCSV = async (fileName, fileData) => {
+  const lines = fileData.split('\n').map((line) => line.split(','))
   return {
     file: fileName,
-    lines: fileData.map((line) => {
+    lines: lines.slice(1).map((line) => {
       return {
-        text: line[0],
-        number: parseInt(line[1]),
-        hex: line[2],
-      };
-    }),
-  };
+        text: line[1],
+        number: parseInt(line[2]),
+        hex: line[3]
+      }
+    })
+  }
 }
