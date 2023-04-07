@@ -10,7 +10,7 @@ Instructions
 
 ### Installation Process
 
-☑ A terminal must be opened
+[x] A terminal must be opened
 
 1. Clone the repository to your local machine
 2. Enter to /backend
@@ -20,9 +20,9 @@ Instructions
 
 ### Running process
 
-☑ Local ports 3000 and 3001 must be available
-☑ Installation process must be completed
-☑ Two terminals must be opened
+[x] Local ports 3000 and 3001 must be available
+[x] Installation process must be completed
+[x] Two terminals must be opened
 
 1. Focus on the first terminal
 2. Enter to /backend
@@ -34,8 +34,9 @@ Instructions
 
 ### Testing process
 
-☑ Local ports 3000 and 3001 must be available
-☑ A terminal must be opened
+[x] Local ports 3000 and 3001 must be available
+[x] A terminal must be opened
+
 1. Enter to /backend
 2. Run `node test`
 3. Type *Ctrl+C* to stop the test
