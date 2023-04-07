@@ -39,29 +39,17 @@ const Home = () => {
             <li>Containering. Create the corresponding Dockerfile and build image and containers</li>
             <li>Typing. The practice doesn't allow typescript, and there aren't components in frontend with props to use PropTypes</li>
             <li>Performance testing and optimizations</li>
-            <li>Progresive web app in front-end</li>
+            <li>Progresive web app in front-end, and other practices to improve offline experience</li>
             <li>Increased accessibility and compliance with WCAG guidelines</li>
             <li>Implementing caching strategies for optimized data fetching</li>
             <li>Error handling. Including:
               <ul>
                 <li>logging system either for backend and front-end, that allows developer to track errors better</li>
                 <li>Error policy. What and how to communicate the user about errors, and what to insert in the logging system</li>
-              </ul> </li>
+              </ul>
+            </li>
             <li>Improved documentation for easier onboarding and maintenance</li>
           </ul>
-
-          <h2>Installation Process</h2>
-          <p>
-            To install and run the application, follow these steps:
-          </p>
-          <ol>
-            <li>Clone the repository to your local machine</li>
-            <li>Enter to both folders /backend and /frontend</li>
-            <li>Run <code>npm install</code> to install the required dependencies</li>
-            <li>Run <code>npm start</code> to start the development server in frontend</li>
-            <li>Run <code>node ./app.j</code> to start the development server in frontend</li>
-            <li>Visit <code>http://localhost:3000</code> in your browser to access the application</li>
-          </ol>
         </Col>
       </Row>
     </Container>

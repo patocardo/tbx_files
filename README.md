@@ -5,6 +5,43 @@ This project is made with the aims of evaluating skills of the author
 
 It loads small CSV files from an external API, and represent them in a UI
 
+Instructions
+------------
+
+### Installation Process
+
+☑ A terminal must be opened
+
+1. Clone the repository to your local machine
+2. Enter to /backend
+3. Run `npm install`
+4. Enter to /frontend
+5. Run `npm install`
+
+### Running process
+
+☑ Local ports 3000 and 3001 must be available
+☑ Installation process must be completed
+☑ Two terminals must be opened
+
+1. Focus on the first terminal
+2. Enter to /backend
+3. Run `node ./app.j`
+4. Focus on the second terminal
+5. Enter to /frontend
+6. Run `npm start` 
+7. Visit `http://localhost:3000` in your browser to access the application
+
+### Testing process
+
+☑ Local ports 3000 and 3001 must be available
+☑ A terminal must be opened
+1. Enter to /backend
+2. Run `node test`
+3. Type *Ctrl+C* to stop the test
+4. Enter to /frontend
+5. Run `npm test` 
+
 Architecture &amp; Technologies
 -------------------------------
 
@@ -14,13 +51,13 @@ Architecture &amp; Technologies
 
 - React 18 for building the user interface
 - React Router for client-side navigation and routing
-- Redux for state management
+- Redux for state management, with Thunk for asynchronic actions
 - React Bootstrap for styling and responsive design
 - Domain-Driven Design (DDD) for organizing the application structure
  
 ### Back end
 
-The application provides endpoints for fetching individual files, listing available files, and retrieving all files in a formatted JSON format.
+The application provides endpoints for fetching individual files, listing available files, and retrieving all files in JSON format.
 
 The application uses several technologies, including:
 
@@ -38,23 +75,11 @@ Areas to Improve
 - Implementation of Docker for both folders. *This implementation was started, but there were failures in the machine.*
 - Typing. The practice doesn't allow typescript, and there aren't components in frontend with props to use PropTypes
 - Performance testing and optimizations
-- Progresive web app in front-end
+- Progresive web app in front-end, and other practices to improve offline experience
 - Increased accessibility and compliance with WCAG guidelines
 - Implementing caching strategies for optimized data fetching
-- PWA features to improve offline experience
 - Error handling. Including: 
     - logging system either for backend and front-end, that allows developer to track errors better
     - Error policy. What and how to communicate the user about errors, and what to insert in the logging system
 - Improved documentation for easier onboarding and maintenance
  
-Installation Process
---------------------
-
- To install and run the application, follow these steps:
-
-1. Clone the repository to your local machine
-2. Enter to both folders /backend and /frontend
-3. Run `npm install` to install the required dependencies
-4. Run `npm start` to start the development server in frontend
-5. Run `node ./app.j` to start the development server in frontend
-6. Visit `http://localhost:3000` in your browser to access the application
